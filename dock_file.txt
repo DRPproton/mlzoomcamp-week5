@@ -1,0 +1,5 @@
+# Running a image after build 
+docker run -i --rm -p 9696:9696 <image-name>
+
+# Build an Image 
+docker build -t <image-name> .
